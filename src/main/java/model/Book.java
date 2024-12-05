@@ -176,7 +176,7 @@ public class Book implements Serializable {
             System.out.println(Thread.currentThread().getName() + " dang set stock cho san pham " + this.getId());
             System.out.println(Thread.currentThread().getName() + " dang sleep .....");
             this.stocks = stocks;
-            Thread.sleep(10000);
+            // Thread.sleep(10000);
             System.out.println("So luong sp " + this.getId() + " da set stock thanh cong: " + this.stocks);
             System.out.println("------------------------------");
         } catch (InterruptedException ex) {
